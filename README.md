@@ -41,7 +41,7 @@ The prediction model expects the following input features:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/fastapi-project.git
+git clone https://github.com/bhagatsingh1729/ML_Backend_FastAPI
 cd ML_Backend_FastAPI
 ```
 
