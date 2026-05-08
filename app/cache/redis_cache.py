@@ -1,10 +1,9 @@
-import os
 import redis
-from dotenv import load_dotenv
+from app.core.config import settings
 
-load_dotenv()
-
-REDIS_URL = os.getenv("REDIS_URL")
+REDIS_URL = settings.REDIS_URL
+if not REDIS_URL:
+    raise ValueError("REDIS_URL must be set in environment or in app.core.config.Settings")
 
 redis_client = redis.StrictRedis.from_url(REDIS_URL, decode_responses=True)
 
