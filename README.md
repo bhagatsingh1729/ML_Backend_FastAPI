@@ -42,7 +42,7 @@ The prediction model expects the following input features:
 
 ```bash
 git clone https://github.com/your-username/fastapi-project.git
-cd fastapi-project
+cd ML_Backend_FastAPI
 ```
 
 ### 2. Set Environment Variables
